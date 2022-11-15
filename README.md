@@ -1,2 +1,1 @@
-# TinDog_Exercise
-TinDog Exercise Responsive
+TinDog Starting Files

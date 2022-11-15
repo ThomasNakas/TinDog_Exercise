@@ -1,0 +1,293 @@
+
+/* Elements */
+
+body{
+  color:#000;
+  font-family:'Monserat',sans-serif;
+  text-align: center;
+  display:grid;
+  padding: 0 min(15rem, 12vw);
+  background-color: #fff;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: clamp(2rem, 8vw, 4rem) ;
+}
+h2{padding: 3% 13%;
+font-weight:bold;
+font-size: clamp(1.5rem,6vw,2rem);
+letter-spacing:1px;}
+h3{
+  font-weight:bold;
+  font-size: clamp(0.75rem, 8vw, 1.5rem);
+  letter-spacing: 1px;}
+p{
+  font-size: clamp(0.5rem, 7vw, 1.3rem);
+  color: grey;
+  letter-spacing: 1px;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0
+}
+/* Containers */
+.container-fluid{
+  padding: 5% 17%;
+}
+
+/* sections */
+
+.colored-section{
+
+  background-image:linear-gradient(45deg, #ff4c68, #ef8172 );
+  color: #fff;
+}
+/* Extra Banch Font modulations */
+.medium-size-fonds{
+font-size: clamp(1rem, 8vw, 2rem);
+padding: clamp(1rem, 3vw, 2rem) clamp(0.50rem, 2.5vw, 1rem);
+font-weight: 800;
+}
+/* Title section */
+#title .container-fluid{
+  padding: 3% 17% 5%;
+}
+
+
+#title{
+  text-align:left;
+  padding:1% 13%;
+  position:relative;
+}
+/* Brand Settings */
+#TinDog{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 300;
+  padding-left: 0;
+  font-size: clamp(2.25rem, 11vw, 3.35rem )
+}
+.big-title{
+  font-weight: 900;
+}
+
+/* Navigation's settings */
+
+.navigation-settings{
+  padding:2% 7% 5%;
+}
+
+.aligning-nav{
+  text-align: left;
+}
+.padding-link{
+padding-left: 10px;
+}
+.dropdown-menu:hover {
+background-color: #ff4c68;
+}
+.dropdown-menu{
+text-shadow: black;
+color: black;
+
+}
+.dropdown-divider{
+border-top:1px solid #fff;
+
+}
+.dropdown-item:hover{
+  background-color: #ff4c68;
+}
+.btn-linking:hover{
+  background-color:#fff;
+}
+.navbar{
+  padding-bottom:3.3rem;
+}
+.navbar-item{
+  padding:0 5%;
+  opacity:0.8;
+  border-radius: 13px 0;
+  font-size: clamp(0.3rem, 4vw, 0.5rem);
+}
+
+.row{
+  text-align: center;
+}
+
+/* Dog Celphone Icon */
+
+.misery_dog{
+  width:35%;
+  transform: rotate(20deg);
+  position:absolute;
+  left: 75%;
+}
+
+/* Download button */
+
+.download_button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Conteiner */
+
+#features{
+  padding:17% 5%;
+  z-index:2;
+  display:flex;
+  flex-grow: 1;
+  background-color: #fff;
+  position:relative;
+}
+
+.features_conteiner{
+  text-align: center;
+}
+
+.icon_features{
+  padding-bottom: 7%;
+  color: #FF8787;
+}
+
+.icon_features:hover{
+  background: -webkit-linear-gradient( #E97777,#FF5858 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.features_box{
+  justify-content: space-between;
+
+}
+
+/* Testiomonials */
+
+#testimonials{
+    background-image:linear-gradient(225deg, #ff4c68, #ef8172 95% );
+}
+.testimonial-text{
+  font-weight:bold;
+  color:#fff;
+}
+.testimonial-image{
+  width: clamp(30%, 11vw, 50%);
+  text-align: center;
+  border-radius: 100%;
+  margin:0 auto 5px;
+}
+
+/* Press Icons  */
+
+
+
+#press{
+background-image:linear-gradient(225deg, #ff4c68, #ef8172);
+padding: 5% 1%;
+}
+.press-images{
+margin: 1% 3% 2%;
+width:clamp(8rem, 13vw, 15rem);
+display:inline-flex;
+}
+
+
+/* Pricingg Cards */
+
+
+#pricing{
+  margin:auto 0;
+  padding:auto 0;
+}
+
+.monthly{
+  font-weight: normal;
+  color: #B2A4FF;
+}
+.pricing-memberships{
+padding: clamp(0.5rem, 10vw, 1rem)  clamp(0.75rem, 10vw, 2.5rem);
+}
+.card{
+  border:3px solid;
+  border-image-source: radial-gradient(circle at top left, #ff4c68 , transparent  50%, #ef8172);
+  border-image-slice: 1;
+
+
+}
+.pricing-title{
+  font-size: clamp(1.5rem, 20vw, 2.1rem)
+  font-weight: 900;
+}
+
+.card-header{
+  border-bottom: 2px solid;
+  border-image-source: linear-gradient(90deg, #ef8172, transparent 20%);
+  border-image-slice: 1;
+}
+.image-box{
+  position:absolute;
+  margin:4.5rem 2.5rem 40rem;
+}
+
+/* Final Message */
+
+#cta{
+  text-align: center;
+  padding:13% 1%;
+}
+.eding-buttons{
+  width: 300px;
+  height: 68px;
+  font-size: 160%;
+  font-weight: 600;
+  letter-spacing:1px;
+  word-spacing: 3px;
+  border-radius: 12px 8px;
+  padding: 0 2%;
+  margin-left:2px;
+  margin:2% 4% 2% 2%;
+}
+
+/* Contact Icons */
+  .final-icons{
+    font-size:clamp(0.55rem, 6vw,2rem);
+    color: #B2A4FF;
+    padding:5% 3%;
+  }
+  .final-icons:hover{
+    background: -webkit-linear-gradient( #E97777,#FF8FB1 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.final_paragraph{
+  font-size: clamp(0.55rem, 3vw, 1rem);
+  letter-spacing: 6px;
+}
+/* Extra responding */
+
+@media(max-width:1194px) {
+#title{
+  position:static;
+  display: block;
+}
+.misery_dog{
+  transform: rotate(0);
+  position: static;
+  text-align: center;
+  width: 55%;
+}
+ul{
+  text-align:center;
+    position: static;
+}
+.image-box{
+margin:0 auto;
+padding:0 auto;
+position: static;
+}
+.row{
+text-align: center;
+}
+}
